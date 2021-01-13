@@ -1,18 +1,27 @@
 <template>
   <section>
     <div class="container">
-      <img src="/assets/img/logo.png" :alt="message" />
+      <p>
+      <!--because the base is consistent, you can use multiple icons on the same line and they're all in order-->
+      <icon-base icon-name="download"><icon-download /></icon-base>
       <p>{{ message }}</p>
     </div>
   </section>
 </template>
 
 <script>
+import IconBase from './icons/IconBase.vue'
+import IconDownload from './icons/IconDownload.vue'
+
 export default {
   data() {
     return {
-      message: 'My DS icons'
+      message: 'Download Icon'
     }
+  },
+  components: {
+    IconBase,
+    IconDownload
   }
 }
 </script>

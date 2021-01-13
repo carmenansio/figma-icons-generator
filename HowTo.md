@@ -10,3 +10,9 @@ https://www.npmjs.com/package/figma-export-icons
 
 ## svgo
 https://www.npmjs.com/package/postcss-svgo
+
+
+## Create a IconBase.vue with slot
+## Create a IconDownload.vue with slot
+
+https://es.vuejs.org/v2/cookbook/editable-svg-icons.html

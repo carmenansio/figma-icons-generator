@@ -21,6 +21,7 @@ Thumbs.db
 Desktop.ini
 .DS_Store*
 ehthumbs.db
-Icon?
+# Icon?
+
 #figma-export-icons
-icons-config.json
+# icons-config.json
