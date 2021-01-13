@@ -1,10 +1,13 @@
 <template>
   <section>
     <div class="container">
-      <p>
       <!--because the base is consistent, you can use multiple icons on the same line and they're all in order-->
-      <icon-base icon-name="download"><icon-download /></icon-base>
-      <p>{{ message }}</p>
+      <p>{{ message }}
+        <icon-base icon-name="download"><icon-download /></icon-base>
+      </p>
+      <p class="red">{{ message }}
+        <icon-base icon-name="download" width="32" height="32"><icon-download /></icon-base>
+      </p>
     </div>
   </section>
 </template>
@@ -32,5 +35,8 @@ export default {
 }
 img {
   max-width: 200px;
+}
+.red {
+  color: red;
 }
 </style>
