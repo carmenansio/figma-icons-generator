@@ -54,6 +54,25 @@ module.exports = {
   module: {
     rules: [
       {
+        // SVGO optimize
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'file-loader'
+          },
+          {
+            loader: 'svgo-loader',
+            options: {
+              multipass: true,
+              js2svg: {
+                indent: 2,
+                pretty: true,
+              }
+            }
+          }
+        ]
+      },
+      {
         // JavaScript
         test: /\.js$/,
         loader: 'babel-loader',

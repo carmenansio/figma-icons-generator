@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?4400be76b193dab5ddb7139e2575d937#iefix") format("embedded-opentype"),
+url("./icons.woff2?4400be76b193dab5ddb7139e2575d937") format("woff2"),
+url("./icons.woff?4400be76b193dab5ddb7139e2575d937") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_account:before {
+    content: "\f101";
+}
+.icon-icon_attachment:before {
+    content: "\f102";
+}
+.icon-icon_bold:before {
+    content: "\f103";
+}
+.icon-icon_code:before {
+    content: "\f104";
+}
+.icon-icon_command-key:before {
+    content: "\f105";
+}
+.icon-icon_delete:before {
+    content: "\f106";
+}
+.icon-icon_document:before {
+    content: "\f107";
+}
+.icon-icon_download:before {
+    content: "\f108";
+}
+.icon-icon_duplicate:before {
+    content: "\f109";
+}
+.icon-icon_heading:before {
+    content: "\f10a";
+}
+.icon-icon_help:before {
+    content: "\f10b";
+}
+.icon-icon_history:before {
+    content: "\f10c";
+}
+.icon-icon_home:before {
+    content: "\f10d";
+}
+.icon-icon_italic:before {
+    content: "\f10e";
+}
+.icon-icon_keyboard:before {
+    content: "\f10f";
+}
+.icon-icon_log-out:before {
+    content: "\f110";
+}
+.icon-icon_new-document:before {
+    content: "\f111";
+}
+.icon-icon_new-package:before {
+    content: "\f112";
+}
+.icon-icon_option-key:before {
+    content: "\f113";
+}
+.icon-icon_return-key:before {
+    content: "\f114";
+}
+.icon-icon_run-code:before {
+    content: "\f115";
+}
+.icon-icon_search:before {
+    content: "\f116";
+}
+.icon-icon_settings:before {
+    content: "\f117";
+}
+.icon-icon_text:before {
+    content: "\f118";
+}

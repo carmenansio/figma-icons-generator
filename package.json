@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
-    "build": "webpack --config ./build/webpack.build.conf.js"
-  },
+    "build": "webpack --config ./build/webpack.build.conf.js",
+    "sprite": "svg-sprite -s --symbol-dest src/assets/icons-sprite --symbol-sprite sprite.svg src/assets/icons-svgo/*.svg"
+},
   "browserslist": [
     "> 1%",
     "last 3 version"
@@ -30,8 +31,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "figma-export-icons": "^1.2.0",
-    "vue": "^2.6.11"
+    "figma-export-icons": "^1.2.1",
+    "phantomjs-prebuilt": "^2.1.13",
+    "vue": "^2.6.11",
+    "vue-svg-sprite": "^2.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -48,6 +51,9 @@
     "postcss-loader": "^3.0.0",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
+    "svg-sprite": "^1.5.0",
+    "svg-sprite-loader": "^6.0.0",
+    "svgo-loader": "^3.0.0",
     "vue-loader": "^15.9.3",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
